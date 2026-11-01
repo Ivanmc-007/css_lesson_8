@@ -10,7 +10,6 @@ body {
   padding-right: 5px;
   padding-top: 5px;
   align-items: center;
-  
 }
 
 .ribbon img {
@@ -53,7 +52,7 @@ body {
   top: -7px;
   right: 100px;
   border: 6px solid;
-  border-color: transparent transparent #4A0000 transparent;
+  border-color: transparent transparent #4a0000 transparent;
 }
 
 /* Нижний правый загиб ленты */
@@ -66,5 +65,11 @@ body {
   top: 120px;
   right: -7px;
   border: 6px solid;
-  border-color: transparent transparent transparent #4A0000;
+  border-color: transparent transparent transparent #4a0000;
 }
+
+/*
+Эффект загиба ленты формируется за счёт применения псевдоэлементов и применения свойсв 
+content, border (именно это св-во рисует треугольник), border-color, z-index, position, 
+а также за счёт точного позиционирования псевдоэлементов
+*/
